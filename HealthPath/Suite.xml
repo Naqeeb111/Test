@@ -1,0 +1,40 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+	<suite name="HoboLinkTestCases" annotations="JDK">
+
+    
+     <test name="HoboLink_SmokeTestCaseHL2417" junit="false" preserve-order="true">
+	 <classes>
+            <class name="com.hobo.testscript.HL2417_UserInterfaceSmokeTest"/>    
+    </classes>
+    </test>
+     <test name="HoboLink_ExportEditHL2382" junit="false" preserve-order="true">
+	 <classes>
+            <class name="com.hobo.testscript.HL2382_ExportsEdit"/>    
+    </classes>
+    </test>
+    
+      <test name="HoboLink_TestCaseHL3976" junit="false" preserve-order="true">
+	 <classes>
+            <class name="com.hobo.testscript.HL3976_SiteNavigation"/>    
+    </classes>
+    </test>
+    
+     <test name="HoboLink_TestCaseHL4690" junit="false" preserve-order="true">
+	<classes> 
+            <class name="com.hobo.testscript.HL4690_UserViewPreference" />  	       
+    </classes>
+    </test> 
+    
+     <test name="HoboLink_TestCaseHL2420" junit="false" preserve-order="true">
+	<classes>
+            <class name="com.hobo.testscript.HL2420_DeviceList" />
+    </classes>
+    </test>
+    
+    <test name="HoboLink_TestCaseHL3933" junit="false" preserve-order="true">
+	<classes>
+            <class name="com.hobo.testscript.HL3933_SystemStatusBanner" />        
+    </classes>
+    </test>
+  
+</suite> 

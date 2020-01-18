@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[</br>TempConnect Login and verify the links of devise and data Test]]>
+    </line>
+    <line>
+      <![CDATA[</br>Click on Registration Icon]]>
+    </line>
+    <line>
+      <![CDATA[</br>Click on SignUp link]]>
+    </line>
+    <line>
+      <![CDATA[</br>Enter Randum email ID]]>
+    </line>
+    <line>
+      <![CDATA[</br>Enter First name and Last Name]]>
+    </line>
+    <line>
+      <![CDATA[</br>Click on SignUp Button]]>
+    </line>
+    <line>
+      <![CDATA[</br>Swith to yopmail and verify email]]>
+    </line>
+    <line>
+      <![CDATA[</br>Set password]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="76941" started-at="2020-01-18T05:39:04Z" finished-at="2020-01-18T05:40:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="76941" started-at="2020-01-18T05:39:04Z" finished-at="2020-01-18T05:40:21Z">
+      <class name="com.healthpath.testscript.LoginTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.healthpath.testscript.LoginTest@6895a785]" name="before" is-config="true" duration-ms="285" started-at="2020-01-18T11:09:04Z" finished-at="2020-01-18T11:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="browserSetUp()[pri:0, instance:com.healthpath.testscript.LoginTest@6895a785]" name="browserSetUp" is-config="true" duration-ms="24056" started-at="2020-01-18T11:09:04Z" finished-at="2020-01-18T11:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.healthpath.testscript.LoginTest@6895a785]" name="loginTest" duration-ms="51458" started-at="2020-01-18T11:09:28Z" finished-at="2020-01-18T11:10:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[</br>TempConnect Login and verify the links of devise and data Test]]>
+            </line>
+            <line>
+              <![CDATA[</br>Click on Registration Icon]]>
+            </line>
+            <line>
+              <![CDATA[</br>Click on SignUp link]]>
+            </line>
+            <line>
+              <![CDATA[</br>Enter Randum email ID]]>
+            </line>
+            <line>
+              <![CDATA[</br>Enter First name and Last Name]]>
+            </line>
+            <line>
+              <![CDATA[</br>Click on SignUp Button]]>
+            </line>
+            <line>
+              <![CDATA[</br>Swith to yopmail and verify email]]>
+            </line>
+            <line>
+              <![CDATA[</br>Set password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.healthpath.testscript.LoginTest@6895a785]" name="afterMainMethod" is-config="true" duration-ms="1408" started-at="2020-01-18T11:10:19Z" finished-at="2020-01-18T11:10:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:0, instance:com.healthpath.testscript.LoginTest@6895a785] output=</br>TempConnect Login and verify the links of devise and data Test]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.healthpath.testscript.LoginTest@6895a785]" name="tearDownSuite" is-config="true" duration-ms="211" started-at="2020-01-18T11:10:21Z" finished-at="2020-01-18T11:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.healthpath.testscript.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
